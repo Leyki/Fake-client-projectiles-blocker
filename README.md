@@ -1,2 +1,3 @@
 # Projectile-Exploit
-Tera proxy module that exploits your projectiles
+
+No need for commands, the module smartly triggers only when it needs to.
