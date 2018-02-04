@@ -1,4 +1,4 @@
-module.exports = function pE(dispatch) {
+module.exports = function FakeClientProjectilesBlocker(dispatch) {
 
     let gameId,
         projectileId
