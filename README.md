@@ -6,18 +6,20 @@ This module will basically stop the client from sending unused client projectile
 
 #### Requirements
 
-You must have `S_START_USER_PROJECTILE` and `C_HIT_USER_PROJECTILE` mapped with their respective last defs.
+You must have `S_START_USER_PROJECTILE`, `C_HIT_USER_PROJECTILE` and `S_END_USER_PROJECTILE` mapped with their respective last defs.
 
 Opcodes for NA are:
 ```
 S_START_USER_PROJECTILE = 25554
 C_HIT_USER_PROJECTILE = 46525
+S_END_USER_PROJECTILE = 54039
 ```
 Opcodes for EU are:
 
 ```
 S_START_USER_PROJECTILE = 25554
 C_HIT_USER_PROJECTILE = 57159
+S_END_USER_PROJECTILE = 59538
 ```
 
 #### Usage
