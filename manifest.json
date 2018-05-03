@@ -1,0 +1,13 @@
+{
+  "files": {
+    "index.js": "1e2d8e1a555647dd0fb3365c61f36cea25d942542054b8ecf89821d6970aa3e8",
+    "module.json": "451718241f03f16b232d05c189f6b2380e261c9bb803189caaac3c8b263dd913",
+    "README.md": "f7dc66b28a0f153a1592e5bef6c0bc8939d007e223a4990e3eca7e74f4d8f6e5"
+  },
+ "defs": {
+   "S_LOGIN": 10,
+   "C_HIT_USER_PROJECTILE": 4,
+   "S_START_USER_PROJECTILE": 5,
+   "S_END_USER_PROJECTILE": 3
+ }
+}
