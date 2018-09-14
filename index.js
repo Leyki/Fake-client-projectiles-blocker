@@ -1,5 +1,4 @@
 module.exports = function FakeClientProjectilesBlocker(mod) {
-    mod.game.initialize("me");
     let projectiles = {};
 
     mod.hook('S_START_USER_PROJECTILE', mod.base.MajorPatchVersion >= 75 ? 9 : 8, e => { projectiles[e.id.toString()] = mod.game.me.is(e.gameId) });
