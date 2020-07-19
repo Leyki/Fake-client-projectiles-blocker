@@ -1,4 +1,4 @@
-module.exports = function FakeClientProjectilesBlocker(mod) {
+exports.NetworkMod = function FakeClientProjectilesBlocker(mod) {
     let projectiles = {};
 
     mod.hook('S_START_USER_PROJECTILE', 9, e => { projectiles[e.id.toString()] = mod.game.me.is(e.gameId) });
